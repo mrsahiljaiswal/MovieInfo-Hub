@@ -1,0 +1,144 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.header{
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+.search-icon{
+    color: black;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.search-suggestion-container{
+    position: fixed;
+    top: 47%;
+    font-family: Outfit;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    border-radius: 7px;
+    padding: 0px 5px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.search-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem; 
+    background-color: white; 
+    width: 100%;
+    height: 60px;
+}
+
+
+.search-input-box{
+    color: black;
+    background-color: inherit;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+}
+
+
+.search-btn{
+    height: 50px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    background-color: initial;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.social-icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 700px;
+}
+
+.social-icon{
+    margin-top: 40px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    color: white;
+}
+
+.social-icon:hover{
+    background-color: #2d2d2d;
+}
+
+
+
+@media (max-width: 480px) {
+    
+
+    main{
+        width: 100%;
+    }
+
+    .header{
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+
+    .search-suggestion-container{
+        position: fixed;
+        top: 48%;
+        width: 90%;
+        left: 5%;
+        max-height: 240px;
+    }
+
+    .search-input-box {
+        height: 40px;
+        padding: 0px 15px;
+        font-size: 0.85rem;
+    }
+    .search-btn {
+        height: 40px;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    .search-btn-container {
+        height: 40px;
+    }
+    .suggestion-item {
+        padding: 0px 6%;
+        min-height: 40px;
+        transition: 0.09s ease-in-out;
+        font-size: 0.85rem;
+    }
+    .social-icon-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        width: 80vw;
+    }
+    .social-icon{
+        width: 50px;
+    }
+}

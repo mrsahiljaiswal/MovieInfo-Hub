@@ -1,0 +1,58 @@
+.suggestion-container{
+    width: 700px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.suggestion-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.suggestion-list{
+    margin: 0;
+    background-color: inherit;
+    padding: 0;
+    color: black;
+    list-style: none;
+    overflow: auto;
+    max-height: 250px;
+    position: relative;
+
+}
+
+.suggestion-item{
+    padding: 0px 6%;
+    min-height:  50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;        
+    cursor: pointer;
+    transition: 0.09s ease-in-out;
+}
+
+.suggestion-item:hover{
+    background-color: #f0f0f0;
+}
+
+.suggestion-item.selected{
+    background-color: #f0f0f0;
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+@media (max-width: 480px) {
+    .suggestion-container{
+        width: 100%;
+    }
+}
