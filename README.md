@@ -63,7 +63,7 @@ A sleek and dynamic **Movie Information Finder** app that allows users to search
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/mrsahiljaiswal/movieinfo-hub.git
+    git clone https://github.com/mrsahiljaiswal/MovieInfo-Hub.git
     ```
 
 2. Navigate to the project directory:
