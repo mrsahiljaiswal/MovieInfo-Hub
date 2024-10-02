@@ -5,7 +5,8 @@
 ![Search Page](https://res.cloudinary.com/de5pdwmbc/image/upload/v1727827794/jpvaihckgpmdf1wdjiki.png)
 
 #### 2. Movie Details Page
-![Movie Details Page](https://res.cloudinary.com/de5pdwmbc/image/upload/v1727828685/h3n3pqrotuymjrhzffef.png)
+![Movie Details Page](/public/movie-search-result.png)
+
 
 
 A sleek and dynamic **Movie Information Finder** app that allows users to search for movies, view detailed movie information, and experience a visually engaging interface. The app fetches data from an external API and presents it beautifully with custom backgrounds, dynamic content, and a modern UI design.
