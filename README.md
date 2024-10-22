@@ -8,7 +8,6 @@
 ![Movie Details Page](/public/movie-search-result.png)
 
 
-
 A sleek and dynamic **Movie Information Finder** app that allows users to search for movies, view detailed movie information, and experience a visually engaging interface. The app fetches data from an external API and presents it beautifully with custom backgrounds, dynamic content, and a modern UI design.
 
 ### [Live Demo](https://movieinfo-hub.netlify.app)
@@ -65,7 +64,7 @@ A sleek and dynamic **Movie Information Finder** app that allows users to search
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/mrsahiljaiswal/movieinfo-hub.git
+    git clone https://github.com/mrsahiljaiswal/MovieInfo-Hub.git
     ```
 
 2. Navigate to the project directory:
