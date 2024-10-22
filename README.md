@@ -6,10 +6,7 @@
 
 #### 2. Movie Details Page
 ![Movie Details Page](/public/movie-search-result.png)
-<<<<<<< HEAD
-=======
 
->>>>>>> ecd028de63792bda5c60df99055fb51b45365e48
 
 
 A sleek and dynamic **Movie Information Finder** app that allows users to search for movies, view detailed movie information, and experience a visually engaging interface. The app fetches data from an external API and presents it beautifully with custom backgrounds, dynamic content, and a modern UI design.

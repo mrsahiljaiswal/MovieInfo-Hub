@@ -14,7 +14,7 @@ const ContentInfo = ({ movieData }) => {
         const mainPoster = movieData?.poster_path;
 
         setBgStyle({
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.85)) , url(https://image.tmdb.org/t/p/original${bgPoster}.jpg)`
+            backgroundImage: `linear-gradient(rgba(225, 225, 225, 0), rgba(0, 0, 0, 1)) , url(https://image.tmdb.org/t/p/original${bgPoster}.jpg)`
         })
 
         setPosterStyle({
