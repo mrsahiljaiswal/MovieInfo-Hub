@@ -98,7 +98,7 @@ const SearchTab = ({setMovieData}) => {
                 <FaLinkedin className='social-icon '/>
             </Link>
 
-            <Link to={`https://www.instagram.com/mr_sahiljaiswal`}>
+            <Link to={`https://www.instagram.com/beyond_sahil`}>
             <FaInstagram className='social-icon '/>
             </Link>
 
